@@ -7,7 +7,7 @@ const PORT = 3000;
 const HOST = '0.0.0.0';
 const appInsights = require('applicationinsights');
 appInsights.setup();
-appInsights.defaultClient.context.tags[appInsights.defaultClient.context.keys.cloudRole] = "HelloWorld-ACI";
+appInsights.defaultClient.context.tags[appInsights.defaultClient.context.keys.cloudRole] = "HelloWorld-Insights";
 appInsights.start();
 
 // App
