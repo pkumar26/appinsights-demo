@@ -1,0 +1,14 @@
+{
+  "name": "nodedemo",
+  "version": "1.0.0",
+  "description": "Node.js on Docker",
+  "author": "Pradeep Kumar <pradk@microsoft.com>",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.1",
+    "applicationinsights": "^1.1.0"
+  }
+}
